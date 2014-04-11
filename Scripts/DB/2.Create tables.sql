@@ -50,3 +50,5 @@ create index currency_index_ask
 on currency_ask(currency_id);
 /
 create unique index ind_unique_date_info on date_info(start_time, end_time);
+/
+create unique index ind_unique_currency_name on currency(currency_name);
