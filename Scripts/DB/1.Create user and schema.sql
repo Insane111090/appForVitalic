@@ -1,5 +1,5 @@
 create user vitalic identified by vitalic
-DEFAULT TABLESPACE USERS QUOTA 100M ON USERS;
+DEFAULT TABLESPACE USERS QUOTA unlimited ON USERS;
 /
 /* Grants*/
 grant create session to vitalik;
